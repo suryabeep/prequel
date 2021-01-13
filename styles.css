@@ -1,0 +1,105 @@
+@media only screen and (max-width: 767px) {
+    #hide-on-md {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #hide-on-lg {
+      display: none;
+    }
+  }
+
+  body {
+    background-color: rgb(180, 180, 180);
+  }
+  
+  * {
+    font-family: "Times New Roman";
+  }
+  
+  a {
+    color: #7D5C01;
+  }
+  
+  a:hover {
+    color: #E69509;
+  }
+  
+  .container-fluid {
+    width: 75%
+  }
+  
+  #nav-title {
+    color: #fcba03;
+  }
+  
+  .navbar-dark {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .nav-item {
+    padding-left: 2rem;
+  }
+
+  .dropdown-menu {
+    background-color: rgb(60, 60, 60);
+  }
+
+  .dropdown-item {
+    color:rgb(180, 180, 180);
+  }
+
+  .dropdown-item:hover {
+    background-color: #d39e0e;
+  }
+
+  .jumbotron,
+  .jumbotron-fluid {
+    padding: 4rem 0 4rem 0;
+    margin-bottom: 0;
+  }
+
+  .companies-container {
+    justify-content: center; 
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .company-logo {
+    max-width: 100%;
+  }
+  
+  #home {
+    background-color: rgb(220, 220, 220);
+    padding: 4rem 0 4rem 0;
+  }
+  
+  #contact {
+    background-color: rgb(180, 180, 180);
+    padding: 4rem 0 4rem 0;
+  }
+
+  #light-stripe {
+    background-color: rgb(220, 220, 220);
+    padding: 2rem 0 2rem 0;
+  }
+
+  #dark-stripe {
+    background-color: rgb(180, 180, 180);
+    padding: 2rem 0 2rem 0;
+  }
+  
+  /*---Firefox Bug Fix --*/
+  .carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+    padding: 1rem;
+  }
