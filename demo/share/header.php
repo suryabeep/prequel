@@ -66,7 +66,7 @@
                         <!-- Mobile Menu Toggle -->
                         <div class="header-center">
                             <a href="javascript:void(0)" class="logo mr-0">
-                                <img src="https://via.placeholder.com/160x40" alt="logo" width="163" height="39" />
+                                <img src="images/logo2.jpeg" alt="logo" width="120" height="39" />
                             </a>
                             <!-- End Logo -->
                         </div>
@@ -136,7 +136,7 @@
                             <nav class="main-nav">
                                 <ul class="menu">
                                     <li class="active">
-                                        <a href="javascript:void(0)"> Custom Cellars </a>
+                                        <a href="javascript:void(0)"> Beverages </a>
                                     </li>
                                     <li>
                                         <a href="javascript:void(0)"> Cooling & Storage </a>

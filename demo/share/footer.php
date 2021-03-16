@@ -113,7 +113,7 @@
                         </figure>
                     </div>
                     <div class="footer-center">
-                        <p class="copyright"> &copy; 2020. All Rights Reserved</p>
+                        <p class="copyright"> &copy; 2021. All Rights Reserved</p>
                     </div>
                     <div class="footer-right">
                         <div class="social-links">
